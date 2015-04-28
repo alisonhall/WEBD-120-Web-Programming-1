@@ -1,0 +1,244 @@
+
+/*************Example 1: Border, padding, margin *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  border:5px solid #FB78AB;
+  padding:10px;
+  margin:30px;
+  background-color: #AF45AB;
+}*/
+
+
+
+/*************Example 2: The em and responsive text *************/
+
+/*body{
+  font-size:16px;
+}
+
+.box{
+  width:200px;
+  height:200px;
+  border: 2em solid red;
+  background-color: #AF45AB;
+}*/
+
+
+
+/*************Example 3: horizontally centering *************/
+/*.box{
+  width:200px;
+  height:200px;
+  margin:50px auto;
+  background-color: #AF45AB;
+}*/
+
+
+
+/*************Example 4: Borders *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  margin:50px auto;
+  border: 10px solid #AB78FE;
+  border-right-color: black;
+  background-color: #AF45AB;
+}*/
+
+
+
+/*************Example 5: Can make triangles *************/
+
+/*.box{
+  border: 100px solid transparent;
+  border-bottom-color: black;
+  display: inline-block;
+}*/
+
+
+
+/*************Example 6: Floats *************/
+
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+}
+
+.box1{
+  float:left;
+}
+
+.box2{
+  float:right;
+}*/
+
+
+
+/*************Example 7: Floats - box-container surrounds only box1 *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+}
+
+.box-container{
+  border: 1px solid black;
+}
+
+.box2{
+  float:right;
+}*/
+
+
+
+/*************Example 8: Floats - box-container doesn't surround anything *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+}
+
+.box-container{
+  border: 1px solid black;
+}
+
+.box1{
+  float:left;
+}
+
+.box2{
+  float:right;
+}*/
+
+
+
+/*************Example 9: Clear - box-container surrounds box1 and box2 again *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+}
+
+.box-container{
+  border: 1px solid black;
+}
+
+.box1{
+  float:left;
+}
+
+.box2{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}*/
+
+
+
+/*************Example 10: Overflow - box-container surrounds box1 and box2 again *************/
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+}
+
+.box-container{
+  border: 1px solid black;
+  overflow:hidden;
+}
+
+.box1{
+  float:left;
+}
+
+.box2{
+  float:right;
+}*/
+
+
+
+/*************Example 11: Position *************/
+
+
+/*.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+  text-align: center;
+}
+
+.box1{
+  background-color: #CE8;
+}
+
+.box2{
+  position:absolute;
+  top:0;
+  left:50px;
+}*/
+
+
+
+/*************Example 12: Layers *************/
+
+.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+  text-align: center;
+}
+
+.box1{
+  background-color: #CE8;   /* same as #CCEE88 */
+  position:relative;
+  z-index: 50;
+}
+
+.box2{
+  position:absolute;
+  top:0;
+  left:50px;
+}
+
+
+
+/*************Example 13: Child-box Position relative to parent-box *************/
+
+.box{
+  width:200px;
+  height:200px;
+  background-color: #FE7916;
+  text-align: center;
+}
+
+.box1{
+  background-color: #CE8;
+  position:relative;
+  margin-top:50px;
+  z-index: 1;
+}
+
+.box2{
+  position:absolute;
+  top:0;
+  left:50px;
+}
+
+.child-box{
+  width:50px;
+  height:50px;
+  background-color:black;
+  position: absolute;
+  top:-10px;
+}

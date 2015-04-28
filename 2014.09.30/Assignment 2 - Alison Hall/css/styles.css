@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+p{
+	font-weight: 300;
+}
+.pageWrapper{
+	width: 980px;
+	margin: 0 auto;
+	border: 1px solid #444;
+
+}
+/*
+ * Navigation
+ */
+.header li,
+.header nav,
+.header h1{
+	display: inline-block;
+}
+.header li{
+	padding: 5px 15px;
+}
+.header nav{
+	float: right;
+}
+.header{
+	padding: 15px 25px;
+}
+/*
+ * Page Styles
+ */
+.mainSection,
+.sidebar,
+.mainContent{
+	display: inline-block;
+}
+.sidebar{
+	width: 378px;
+	float: right;
+	padding-left: 25px;
+}
+.mainContent{
+	float: left;
+	width: 558px;
+	padding: 0 25px;
+}
+/*
+ * Footer
+ */
+.footer{
+	display: block;
+	padding: 25px;
+	float: bottom;
+}

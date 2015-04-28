@@ -1,0 +1,591 @@
+
+/***********************
+GENERAL
+************************/
+
+*{
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#pageWrapper {
+	width: 100%;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 40px;
+	margin: 70px 0 0 0;
+	letter-spacing: 0.15em;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 18px;
+	width: 620px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 16px;
+	color: #30bae7;
+	margin: 0 0 20px 0;
+}
+
+h5 {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 21px;
+}
+
+h6 {
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffdd99;
+}
+
+p {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.wholeSection {
+	width: 100%;
+}
+
+.headerContent,
+.sectionContent {
+	width: 1440px;
+	position: center;
+	text-align: center;
+	padding: 0 40px;
+}
+
+.sectionContent {
+	padding: 40px 40px;
+}
+
+.fourColumns {
+	display: inline-block;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+	float: left;
+	width: 240px;
+	padding: 15px;
+	margin: 50px 0;
+}
+
+.column1 p,
+.column2 p,
+.column3 p,
+.column4 p {
+	width: 210px;
+}
+
+.twoColumns {
+	display: inline-block;
+	width: 1100px;
+	padding: 70px 0 0 0;
+}
+
+.column1-2 {
+	float: left;
+}
+
+.column2-2 {
+	float: right;
+}
+
+.row1,
+.row2 {
+	clear: both;
+	min-height: 300px;
+}
+
+.line {
+	width: 87px;
+	height: 4px;
+	opacity: 0.15;
+	background-color: black;
+	margin: 10px auto 15px;
+}
+
+.button {
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+
+
+
+/***********************
+HEADER
+************************/
+
+#header {
+	position: fixed;
+	color: white;
+	background-color: #87509c;
+	height: 110px;
+	display: block;
+	padding: 0;
+	margin: 0;
+	z-index: 10;
+}
+
+#logo {
+	height: 100%;
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0 0 0 200px;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	margin: 10px 100px 0 0;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	padding: 8px 22px;
+}
+
+nav a:hover {
+	box-shadow: 0px 0px 10px #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pagePosition {
+	background-color: #643a79;
+	border-radius: 5px;
+}
+
+
+
+
+/***********************
+WELCOME SECTION
+************************/
+
+#welcome {
+	padding-top: 100px;
+	color: white;
+	background-color: #87509c;
+	min-height: 300px;
+	height: 486px;
+}
+
+#welcomeContent {
+	min-height: 300px;
+	margin: 60px auto;
+}
+
+#welcomeContent > p {
+	font-weight: 700;
+	font-size: 42.16px;
+}
+
+.workWithUsButton {
+	display: inline-block;
+	background-color: #eb7d4b;
+	width: 293px;
+	height: 70px;
+	border-bottom: 5px solid #C7673C;
+	margin: 40px 0 0 0;
+	border-radius: 5px;
+}
+
+.workWithUsButton p {
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+
+.workWithUsButton:hover {
+	background-color: #C7673C;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+.workWithUsButton:hover p {
+	font-size: 22px;
+}
+
+
+
+
+/***********************
+SERVICES SECTION
+************************/
+
+#services {
+	color: white;
+	background-color: #17c2a4;
+	height: 747px;
+}
+
+#services h1 {
+	margin: 70px 0 0 0;
+}
+
+#services h3 {
+	width: 600px;
+}
+
+#services h2 {
+	margin: 20px 0;
+}
+
+
+
+
+/***********************
+TEAM SECTION
+************************/
+
+#line2 {
+	background-color: #bdd1df;
+	opacity: 0.75;
+}
+
+#team {
+	color:#3c4761;
+	background-color: #e7f1f8;
+	height: 914px;
+}
+
+#team h1 {
+	margin: 70px 0 0 0;
+}
+
+#team h2 {
+	margin: 20px 0 0 0;
+}
+
+#team h4 {
+	margin: 0 0 20px 0;
+}
+
+.personalSocialMedia {
+	margin: 20px 0 0 0;
+	clear: both;
+}
+
+.socialMedia {
+	width: 32px;
+	height: 32px;
+	background-color: #bdd1df;
+	border-radius: 50%;
+	margin: 0 5px;
+	padding: 0;
+	display: inline-block;
+}
+
+.socialMedia:hover {
+	background-color: #ABBBC7;
+}
+
+.fa {
+	color: white;
+	width: 40px;
+	height: 40px;
+	margin: 8px 0 0 -4px;
+}
+
+
+
+
+/***********************
+SKILLS SECTION
+************************/
+
+#line3 {
+	background-color: #dfe8ed;
+	opacity: 1;
+}
+
+#skills {
+	color: #3c4761;
+	background-color: white;
+	height: 655px;
+}
+
+
+
+
+/***********************
+PORTFOLIO SECTION
+************************/
+
+#line4 {
+	background-color: #e5c37f;
+	opacity: 1;
+}
+
+#portfolio {
+	color: #393939;
+	background-color: #ffdd99;
+	height: 1423px;
+}
+
+#portfolio h3 {
+	width: 550px;
+}
+
+#projectOptions {
+	font-size: 18px;
+	display: inline-block;
+	clear: both;
+}
+
+#projectOptions a {
+	background-color: #DEC085;
+	display: inline-block;
+	height: 35px;
+	width: 80px;
+	border-radius: 5px;
+	margin: 30px 5px 20px;
+}
+
+#projectOptions a:hover {
+	background-color: white;
+}
+
+#projectOptions p {
+	color: black;
+	margin: 5px 0 0 0;
+}
+
+#portfolio .twoColumns {
+	width: 1170px;
+	padding: 30px 0 30px 0;
+}
+
+#portfolio .twoColumns p {
+	margin: 0 0 30px 0;
+	color: black;
+	font-size: 18px;
+}
+
+#works2 {
+	margin: -2px 0 0 0;
+}
+
+#works4 {
+	margin: -5px 0 0 0;
+}
+
+.loadMoreProjectsButton {
+	display: inline-block;
+	background-color: #17c2a4;
+	width: 293px;
+	height: 70px;
+	border-bottom: 5px solid #12A38A;
+	border-radius: 5px;
+}
+
+.loadMoreProjectsButton p {
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: 23px;
+}
+
+.loadMoreProjectsButton:hover {
+	background-color: #12A38A;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+.loadMoreProjectsButton:hover p {
+	font-size: 22px;
+}
+
+
+
+
+/***********************
+TESTIMONIALS SECTION
+************************/
+
+#testimonials {
+	color: white;
+	background-color: #d74680;
+	height: 894px;
+}
+
+.column1-2 .reviewsBase,
+.column2-2 .reviewsBase {
+	width: 100px;
+	float: left;
+}
+
+.column1-2 .review,
+.column2-2 .review {
+	width: 350px;
+	float: right;
+	text-align: left;
+}
+
+.review {
+	padding: 5px 30px 30px 50px;
+}
+
+
+
+
+/***********************
+CONTACT SECTION
+************************/
+
+#line6 {
+	background-color: #273a71;
+	opacity: 1;
+}
+
+#contact {
+	color: white;
+	background-color: #3c5499;
+	height: 819px;
+}
+
+#contact h3 {
+	width: 100%;
+}
+
+#inputBoxes {
+	margin: 60px auto 30px;
+}
+
+input,
+textarea {
+	background-color: #273a71;
+	color: white;
+	display: inline-block;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+input:hover,
+textarea:hover {
+	background-color: #2D4280;
+}
+
+input {
+	width: 380px;
+	min-height: 50px;
+}
+
+textarea {
+	width: 830px;
+	min-height: 200px;
+	clear: both;
+	color: white;
+	overflow: auto;
+}
+
+input[type="text"] {
+	padding: 0 25px;
+}
+
+textarea[type="text"] {
+	padding: 15px 25px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-size: 18px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+   font-size: 18px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+   font-size: 18px;  
+}
+
+:-ms-input-placeholder {  
+   color: white;
+   font-size: 18px;  
+}
+
+.sendMessageButton {
+	display: inline-block;
+	background-color: #30bae7;
+	width: 293px;
+	height: 70px;
+	border-bottom: 5px solid #279CC2;
+	border-radius: 5px;
+}
+
+.sendMessageButton p {
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+	position: relative;
+	top: 23px;
+}
+
+.sendMessageButton:hover {
+	background-color: #279CC2;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+.sendMessageButton:hover p {
+	font-size: 22px;
+}
+
+
+
+
+/***********************
+FOOTER
+************************/
+
+#footer {
+	color: white;
+	background-color: #344b8e;
+	height: 112px;
+}
+
+#footerLinks {
+}
+
+#footerLinks a {
+	padding: 0 30px;
+	color: white;
+	font-size: 24px;
+}
+
+#footerLinks a:hover {
+	color: #30bae7;
+}

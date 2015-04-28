@@ -1,0 +1,35 @@
+
+<!---- Example Form Site ---->
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My Site</title>
+
+		<style>		/*** Inline css. Not good style. Should be on separate css file***/
+			.email-container{
+				display:inline-block;
+			}
+			input[type=sublit]{
+				display: inline-block;
+			}
+		</style>
+
+
+	</head>
+	<body>
+		<form action="form.php" method="GET" name="my-form">
+			<div class="nameContainer">
+				Name: <input type="text" name="fullName" />
+			</div>
+			<span class="emailContainer">
+				Email: <input type="email" name="email" />
+			</span>
+			<div>
+				Comment: <textarea>Write your comment here...</textarea>
+			</div>
+			<input type="submit" value="Submit Comment" />
+		</form>
+	</body>
+</html>

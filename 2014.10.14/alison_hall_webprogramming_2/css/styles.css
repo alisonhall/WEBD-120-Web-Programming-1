@@ -1,0 +1,136 @@
+
+/**********************************
+MAIN
+***********************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+.pageWrapper{
+	width: 980px;
+	margin: 0 auto;
+	border: 5px solid #599a68;
+
+}
+
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+.header li,
+.header nav,
+.header h2{
+	display: inline-block;
+}
+
+.header li{
+	padding: 5px 15px;
+}
+
+.header nav{
+	float: right;
+}
+
+.title{
+	padding: 15px 25px;
+}
+
+.subTitle{
+	padding: 0 25px;
+}
+
+
+
+
+/**********************************
+PAGE STYLES
+***********************************/
+
+.mainSection,
+.sidebar,
+.mainContent{
+	display: inline-block;
+}
+
+.sidebar{
+	width: 35%;
+	float: right;
+	padding-left: 25px;
+}
+
+.mainContent{
+	float: left;
+	width: 65%;
+	padding: 0px 25px;
+}
+
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+.footer{
+	display: block;
+	padding: 25px;
+	float: bottom;
+}
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #ddd;
+  color: #999;
+}
+
+.pageWrapper {
+	background-color: #fff;
+}
+
+/* green header */
+.header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* title background*/
+.title {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}

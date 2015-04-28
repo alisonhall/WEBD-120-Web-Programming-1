@@ -1,0 +1,5 @@
+Titillium Web: http://www.google.com/fonts/specimen/Titillium+Web
+
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600,700,400,400italic,300' rel='stylesheet' type='text/css'>
+
+font-family: 'Titillium Web', sans-serif;

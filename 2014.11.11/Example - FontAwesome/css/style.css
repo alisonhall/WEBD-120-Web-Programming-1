@@ -1,0 +1,8 @@
+.fa {
+	font-size: 80px;
+	transition: all 0.5s ease;
+}
+
+.fa:hover {
+	opacity: 0.5;
+}

@@ -1,0 +1,90 @@
+/*****************
+EXAMPLE 1
+******************/
+
+/*.parent{
+	width: 500px;
+	height: 500px;
+	background-color: #FB89DA;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.child{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	position: relative;
+	top: 100px;
+	left: -50px;
+}
+.sibling{
+	width: 300px;
+	height: 300px;
+	background-color: #5589BC;
+	position: fixed;
+}*/
+
+
+/*****************
+EXAMPLE 2
+******************/
+
+
+
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+p{
+	font-weight: 300;
+}
+.page-wrapper{
+	width: 980px;
+	margin: 0 auto;
+	border: 1px solid #444;
+
+}
+/*
+ * Navigation
+ */
+.main-header li,
+.main-header nav,
+.main-header h1{
+	display: inline-block;
+}
+.main-header li{
+	padding: 5px 15px;
+}
+.main-header nav{
+	float: right;
+}
+.main-header{
+	padding: 15px 25px;
+}
+/*
+ * Page Styles
+ */
+.content{
+	width: 558px;
+	float: left;
+	padding: 0 25px;
+}
+.main-sidebar{
+	width: 378px;
+	float: right;
+	padding-left: 25px;
+}
+.main-content{
+	overflow: hidden;
+}
+/*
+ * Footer
+ */
+.main-footer{
+	padding: 25px;
+}

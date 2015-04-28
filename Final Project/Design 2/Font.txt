@@ -1,0 +1,5 @@
+https://www.google.com/fonts/specimen/Open+Sans
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,400' rel='stylesheet' type='text/css'>
+
+font-family: 'Open Sans', sans-serif;
